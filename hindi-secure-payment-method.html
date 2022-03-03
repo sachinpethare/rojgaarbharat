@@ -162,6 +162,36 @@
 
 
   }
+
+  blink {
+  -webkit-animation: 1.5s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 1.5s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
   
 </style>
 
@@ -219,9 +249,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li>भुगतान के समय "add your massage" अनुभाग में अपना वैध ई-मेल आईडी और फोन नंबर दर्ज करें।</li>
             </ol>
 
+            <p style="font-size: 14px;"><b style="color: red;">ध्यान दें:</b> <b>फोनपे वर्तमान में कुछ तकनीकी त्रुटि के कारण काम नहीं कर रहा है, कृपया पेटीएम या गूगल पे के साथ क्यूआर कोड को स्कैन करें और सक्रियण शुल्क का भुगतान करें।</b></p>
+
             <p>आपकी योजना 24 घंटों के भीतर सक्रिय हो जाएगी और आपकी योजना सक्रिय होने के बाद हम आपको डेटा प्रदान करेंगे। <b>यदि आपको कोई संदेह है तो कृपया हमें व्हाट्सएप पर संदेश भेजें।</b></p>
 
-            <div style="margin-top: 30px;"><a style="padding: 10px 12px 10px 12px; background-color: #138808; color: #ffffff; border-radius: 3px; font-weight: 600; text-decoration: none; outline: none;" href="https://wa.link/vozdw3">मदद की ज़रूरत है?</a></div>
+            <div style="margin-top: 30px;"><a style="padding: 10px 12px 10px 12px; background-color: #138808; color: #ffffff; border-radius: 3px; font-weight: 600; text-decoration: none; outline: none;" href="https://wa.link/vozdw3"><blink>मदद की ज़रूरत है?</blink></a></div>
 
           </div>
 
