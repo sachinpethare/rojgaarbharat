@@ -414,6 +414,7 @@ blink {
   bottom: 14px;
   right: 20px;
   text-align: center;
+  display: none;
 }
 .rb-slides-carousel > .flickity-page-dots .dot {
   width: 38px;
