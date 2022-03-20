@@ -1865,6 +1865,7 @@ a.h2{
 .faq-accordian .card .card-header h6 span {
     font-size: 1.5rem;
 }
+
 .faq-accordian .card .card-header h6.collapsed {
     color: #000000;
 }
@@ -1883,6 +1884,10 @@ a.h2{
     .support-button p {
         font-size: 14px;
     }
+
+    .faq-accordian p{
+  text-align: justify;
+}
 }
 
 .support-button i {
