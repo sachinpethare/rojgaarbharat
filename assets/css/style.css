@@ -1154,6 +1154,7 @@ blink {
 
 .why-us{
   padding-bottom: 30px;
+  background-color: #ffffff;
 }
 
 .why-us h2 {
@@ -1825,7 +1826,7 @@ a.h2{
 .faq_area {
     position: relative;
     z-index: 1;
-    background-color: #f5f5ff;
+    background-color: #f5f5f5;
 }
 
 .faq-accordian {
@@ -1848,6 +1849,7 @@ a.h2{
 .faq-accordian .card .card-header h6 {
     cursor: pointer;
     padding: 1.75rem 2rem;
+    line-height: 25px;
     color: #ff9933;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1864,7 +1866,7 @@ a.h2{
     font-size: 1.5rem;
 }
 .faq-accordian .card .card-header h6.collapsed {
-    color: #070a57;
+    color: #000000;
 }
 .faq-accordian .card .card-header h6.collapsed span {
     -webkit-transform: rotate(-180deg);
