@@ -1240,7 +1240,7 @@ blink {
   padding: 60px 0;
   margin: 0;
   position: relative;
-  background-image: url(../images/backgrounds/simple-data-entry-work-for-students.png);
+  background-image: url(../images/slides/simple-data-entry-work.webp);
   background-position: 50%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1650,8 +1650,26 @@ a.h2{
 
 }
 
+
+.top-details h3{
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+
+}
+
+
+.top-details p{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+
 .msg-support .row{
-  padding: 40px 0px 50px 0px;
+  padding: 20px 0px 50px 0px;
 }
 
 .msg-support .live {
@@ -1756,7 +1774,7 @@ a.h2{
 }
 
 .msg-support .row{
-  padding: 40px 0px 60px 0px;
+  padding: 20px 0px 50px 0px;
 }
 
 .msg-support .box-two{
@@ -1767,11 +1785,13 @@ a.h2{
 
 
 .msg-support .email p{
-  font-size: 9.5vw;
+  font-size: 8.5vw;
+  padding: 0px;
 }
 
 .msg-support .number p{
-  font-size: 9.5vw;
+  font-size: 8.5vw;
+  padding: 0px;
 }
 
 .msg-support .number span{
@@ -1792,6 +1812,22 @@ a.h2{
   font-weight: 600;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.top-details h3{
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 7vw;
+  font-weight: 600;
+}
+
+
+.top-details p{
+  text-align: center;
+  color: #fff;
+  font-size: 3.7vw;
+  padding: 0px;
 }
 
 }
