@@ -1384,14 +1384,52 @@ blink {
 
 
 .responsive-youtube{
-  overflow: hidden; padding-bottom: 56.25%; position: relative; height: 0px;
+  padding-bottom: 5%;
 }
 
-.responsive-youtube iframe{
-  left: 0; top: 0; height: 100%; width: 100%; position: absolute;
+.responsive-youtube .play-icon {
+    background-image: url(../images/icon-play-outlined.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    content: " ";
+    display: block;
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    top: 51%;
+    left: 40%;
 }
 
+.play-icon:hover{background-image:url(../images/icon-play.webp);}
 
+
+@media only screen and (max-width: 426px){
+  .responsive-youtube .play-icon {
+    width: 75px;
+    height: 75px;
+    top: 60%;
+    left: 40%;
+}
+}
+
+@media only screen and (max-width: 376px){
+  .responsive-youtube .play-icon {
+    width: 75px;
+    height: 75px;
+    top: 62%;
+    left: 38%;
+}
+}
+
+@media only screen and (max-width: 321px){
+  .responsive-youtube .play-icon {
+    width: 65px;
+    height: 65px;
+    top: 68%;
+    left: 35%;
+}
+}
 
 /*rb-footer*/
 
@@ -1425,6 +1463,7 @@ blink {
 .footer__content__aside{
     margin-top: 20px;
 }
+
 }
 
 section.pricing {
