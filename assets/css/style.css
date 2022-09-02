@@ -1236,7 +1236,7 @@ blink {
 }
 
 /*rb-cta*/
-.lazy-background {
+.rb-cta {
   padding: 60px 0;
   margin: 0;
   position: relative;
@@ -1247,11 +1247,6 @@ blink {
   background-size: cover;
   background-color: #f5f5f5;
 }
-
-.lazy-background .visible {
-  background-image: url(../images/slides/simple-data-entry-work.webp); /* The final image */
-}
-
 .rb-cta-content {
   padding: 40px 20px;
   margin-top: -150px;
