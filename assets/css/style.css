@@ -786,7 +786,7 @@ blink {
   font-weight: 500;
 }
 .rb-article a:hover {
-  color: #273f57;
+  color: #fff !important;
 }
 .rb-article > p {
   color: #333;
