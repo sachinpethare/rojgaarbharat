@@ -346,7 +346,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("आपके पंजीकरण के लिए आपका धन्यवाद। हमारी ग्राहक सहायता टीम 24 घंटे के भीतर आपसे संपर्क करेगी।"))
+                .then(response => alert("पंजीकरण सफल!अब उस योजना का चयन करें जिस पर आप काम करना चाहते हैं और सक्रियण शुल्क का भुगतान करें, काम शुरू करने के लिए।"))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>
