@@ -1161,7 +1161,10 @@ blink {
   text-decoration: none;
 }
 .breadcrumb-item+.breadcrumb-item::before {
-  color: #333;
+  color: #fff !important;
+}
+.breadcrumb-item.active {
+    color: #fff !important;
 }
 /*why-rb*/
 
