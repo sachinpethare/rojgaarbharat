@@ -545,7 +545,7 @@ blink {
   font-weight: 700;
   color: #273f57;
   letter-spacing: 1px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .rb-overview-content h1 strong {
   color: #FF9933;
@@ -1799,6 +1799,10 @@ a.h2{
 .msg-support {
   margin-top: 40px;
 
+}
+
+.rb-overview-content h1 {
+  font-size: 5.1vw;
 }
 
 .msg-support .row{
