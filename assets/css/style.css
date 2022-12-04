@@ -8,6 +8,14 @@ body {
   background-color: #f5f5f5;
 }
 
+.rb-article .basic-internal {
+  color: #138808;
+}
+
+.rb-article .basic-internal:hover{
+  color: #FF9933 !important;
+}
+
 body a{
   text-decoration: none !important;
 }
