@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+
+<!-- Google Tag Manager -->
+<script data-debloat-delay="1">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MDTFHS');</script>
+<!-- End Google Tag Manager -->
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://rojgaarbharat.com/",
+      "logo": "https://rojgaarbharat.com/assets/images/logo.svg"
+    }
+</script>
+
+  <meta charset="UTF-8">
+	<title> Activate Your Plan With Secure QR-Scan | Rojgaar Bharat</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Activate your plan by paying the activation fees with our most secure payment method (PhonePe). Get Your Project Now!">
+  <meta name="keywords" content="">
+  <link rel="shortcut icon" href="assets/images/icons/favicon.png">
+  <link rel="canonical" href="https://rojgaarbharat.com/secure-payment-method.html"/>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://rojgaarbharat.com/secure-payment-method.html" hreflang="x-default" rel="alternate">
+
+<link href="https://rojgaarbharat.com/secure-payment-method.html" hreflang="en" rel="alternate">
+
+<link href="https://rojgaarbharat.com/hindi-secure-payment-method.html" hreflang="hi" rel="alternate">
+
+<link rel="canonical" href="https://rojgaarbharat.com/secure-payment-method.html"/>
+
+<style>
+
+  .payment-header{
+    background-color: #FF9933; 
+    padding: 10px 0px 140px 0px;
+  }
+
+  .payment-header-box{
+    padding: 0% 13% 0% 13%;
+    margin-top: -100px;
+  }
+
+  .payment-header-box .col-lg-12{
+    
+    background-color: #ffffff;
+  }
+
+  .payment-header-box .box-inside{
+    padding: 50px;
+    box-shadow: 0 1px 5px 2px rgb(0 0 0 / 10%);
+  }
+
+  .payment-header-box h1{
+    font-size: 1.70rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .payment-header-box ol{
+    line-height: 35px;
+  }
+
+  .QR-Code{
+    max-width: 300px; 
+    padding: 0px;
+  }
+
+  .navbar-brand img{
+    margin-left: -40px;
+  }
+
+  @media screen and (max-width: 1024px){
+  .payment-header-box h1{
+    font-size: 1.30rem;
+  }
+
+  .navbar-brand img{
+    margin-left: -30px;
+  }
+
+  .payment-header-box ol{
+    line-height: 25px;
+  }
+
+  .payment-header-box .box-inside {
+    padding: 30px 25px 30px 25px;
+}
+
+  }
+
+  @media screen and (max-width: 768px){
+  .payment-header-box h1{
+    font-size: 1.50rem;
+  }
+
+  .navbar-brand img{
+    margin-left: -20px;
+  }
+
+  .payment-header-box ol{
+    line-height: 30px;
+  }
+
+  .payment-header-box .box-inside {
+    padding: 30px 25px 30px 25px;
+}
+
+  .QR-Code{
+    margin: 50px auto;
+  }
+
+  }
+
+  @media screen and (max-width: 426px){
+  .payment-header-box h1{
+    font-size: 6vw;
+    
+  }
+
+  .payment-screenshot{
+    font-size: 4vw;
+  }
+
+  .navbar-brand img{
+    margin: auto;
+  }
+
+  .payment-header-box {
+    padding: 0% 5% 0% 5%;
+}
+
+  .payment-header-box ol{
+    line-height: 25px;
+    font-size: 3.5vw;
+  }
+
+  .payment-header-box p{
+    font-size: 3.6vw;
+  }
+
+  .payment-header-box .box-inside {
+    padding: 30px 15px 0px 15px;
+}
+
+  .QR-Code{
+    margin: 50px auto;
+  }
+
+  }
+
+  @media screen and (max-width: 375px){
+
+  .payment-header-box {
+    padding: 0% 4% 0% 4%;
+  }
+
+  .payment-header-box ol{
+    padding-left: 20px;
+  }
+
+
+
+
+  }
+
+blink {
+  -webkit-animation: 1.5s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 1.5s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+  
+</style>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EmploymentAgency",
+  "name": "Rojgaar Bharat",
+  "image": "https://rojgaarbharat.com/assets/images/logo.svg",
+  "@id": "",
+  "url": "https://rojgaarbharat.com/",
+  "telephone": "7715816483",
+  "priceRange": "$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ARM Building, Kharghar, Maharashtra",
+    "addressLocality": "Navi Mumbai",
+    "postalCode": "410210",
+    "addressCountry": "IN"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/rojgaarbharat.india/",
+    "https://www.instagram.com/rojgaarbharat.jobs/",
+    "https://www.youtube.com/channel/UCJ0oFmibo7R_AqzqScvNDZA",
+    "https://rojgaarbharat.com/"
+  ] 
+}
+</script>
+
+
+</head>
+
+<body style="background-color: #d7dbd7">
+
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MDTFHS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<section class="payment-header">
+ <div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <a href="https://rojgaarbharat.com/" class="navbar-brand"><img  alt="Rojgaar Bharat" style="height: 100px; max-width: 100px;" src="assets/images/logo.svg"></a>
+    </div>
+  </div>
+ </div>
+</section>
+
+<section class="payment-header-box">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row box-inside">
+
+          
+
+
+
+          <div class="col-xl-8 col-lg-6">
+            <h1>Activate Your Plan By Paying Activation Fees.</h1>
+
+            <ol>
+              <li>Open any UPI App (PhonePe, Google Pay, Paytm etc.) on your phone.</li>
+              <li>Tap on QR-Scanner on your UPI App and scan the QR-Code.</li>
+              <li>Activate your plan by paying activation charges of your selected plan.</li>
+              <li>After paying the activation charges, please click on the below button and share the screenshot of your payment with your Email ID on our WhatsApp account.</li>
+            </ol>
+
+            <p style="font-size: 14px; display: none;"><b style="color: red;">Note:</b> <b>PhonePe is not working currently due to some technical error please scan the QR code with Paytm or Google Pay and pay the activation charges.</b></p>
+
+            <p>Your plan will be activated within 24 hours and we will provide you the data on your given Email ID daily. <b>Click on the below button to share the screenshot of your payment and Email ID.</b></p>
+
+            <div style="margin-top: 30px;"><a class="payment-screenshot" target="_blank" style="padding: 10px 12px 10px 12px; background-color: #138808; color: #ffffff; border-radius: 3px; font-weight: 600; text-decoration: none; outline: none;" href="https://wa.link/vozdw3"><i style="font-size: 20px;" class="fa fa-whatsapp" aria-hidden="true"></i> Share Payment Screenshot</a></div>
+
+          </div>
+
+          <div class="col-xl-4 col-lg-6 QR-Code">
+            <img class="img-fluid" src="assets/images/rojgaar-bharat-payment-method.png" alt="rojgaar-bharat-payment-method">
+
+            <div style="margin-top: 30px; align-items: center; justify-content: center; display: flex; "><a style="padding: 10px 12px 10px 12px; background-color: #138808; color: #ffffff; border-radius: 3px; font-weight: 600; text-decoration: none; outline: none;" href="assets/images/rojgaar-bharat-payment-method.png" download="Rojgaar-Bharat-QR-Code"><i style="font-size: 20px;" class="fa fa-download" aria-hidden="true"></i> Download QR-Code</a></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60eab570649e0a0a5ccb9c86/1faad9guv';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+
+  
+</body>
+</html>
