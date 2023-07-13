@@ -303,7 +303,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <div style="height: 590px;" class="col-12 col-lg-4 rb-overview-form">
 
-            <h2>अपना काम शुरू करें</h2>
+            <h2><!--अपना काम शुरू करें--> अपना प्रोजेक्ट बुक करें</h2>
 
     <form method="post" name="google-sheet">
 
@@ -419,22 +419,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
 			  
 
-              <div style="outline: none; display: flex; justify-content: center; align-items: center;" class="col-12 align-self-center rb-form-field"><input id="apply-form" style="padding: 10px 12px 10px 12px; background-color: #FF9933; color: #ffffff; border: 1px solid #138808; border-radius: 4px; font-weight: 600; text-decoration: none; outline: none;" value="अभी पंजीकरण करें" class="contact-submit" name="submit" type="submit"></div>
+              <div style="outline: none; display: flex; justify-content: center; align-items: center;" class="col-12 align-self-center rb-form-field"><input id="apply-form" style="padding: 10px 12px 10px 12px; background-color: #FF9933; color: #ffffff; border: 1px solid #138808; border-radius: 4px; font-weight: 600; text-decoration: none; outline: none;" value="बुक करें" class="contact-submit" name="submit" type="submit"></div>
 
               <p style="color: #fff; font-size: 13px; font-weight: 600; text-align: center; margin: 0px -10px; padding: 15px 0px; ">रजिस्ट्रेशन के बाद, कृपया हमारे साथ काम करना शुरू करने के लिए अपने प्लान को चुनें और एक्टिवटे करें।</p>
 
             </form>
 
-            <!-- https://script.google.com/macros/s/AKfycbxM9RY49ZnPLXUkzFGhEwJduj6StDwqPWhve-pCNbeouYkLqHr6/exec //-->
+            <!--पंजीकरण सफल! अब उस योजना का चयन करें जिस पर आप काम करना चाहते हैं और सक्रियण शुल्क का भुगतान करें, काम शुरू करने के लिए। https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec // अभी पंजीकरण करें-->
 
             <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec'
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw3FKhovZ1cBi5PPthxHFKccGxe2HQdGItHe0U7Q3tqfWK8sxFW79viZeJWSH8a6AIS/exec'
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("पंजीकरण सफल! अब उस योजना का चयन करें जिस पर आप काम करना चाहते हैं और सक्रियण शुल्क का भुगतान करें, काम शुरू करने के लिए।"))
+                .then(response => alert("We have secured a pre-booking for your project and will notify you via email as soon as it becomes available."))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>
