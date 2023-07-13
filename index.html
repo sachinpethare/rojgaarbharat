@@ -279,7 +279,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
 
     <div class="container" style="background-color: #000080;">
-          <div><marquee scrollamount="5"><p style="color: #fff; font-weight: 600; text-align: center; margin-top: 10px; margin-bottom: 0px;"><span style="background-color: #fff; color: #000080; padding: 4px 3px; font-weight: 600; border-radius: 3px;"> LIMITED PROJECTS ARE AVAILABLE:</span> 7 Basic typing project, 5 Basic+ typing project, 2 Standard typing project, 6 Special typing project and 1 Premium typing project. Hurry up and activate your plan to start working and earning with us!</p></marquee></div>
+          <div style="display: none;"><marquee scrollamount="5"><p style="color: #fff; font-weight: 600; text-align: center; margin-top: 10px; margin-bottom: 0px;"><span style="background-color: #fff; color: #000080; padding: 4px 3px; font-weight: 600; border-radius: 3px;"> LIMITED PROJECTS ARE AVAILABLE:</span> 7 Basic typing project, 5 Basic+ typing project, 2 Standard typing project, 6 Special typing project and 1 Premium typing project. Hurry up and activate your plan to start working and earning with us!</p></marquee></div>
+
+
+<div><marquee scrollamount="5"><p style="color: #fff; font-weight: 600; text-align: center; margin-top: 10px; margin-bottom: 0px;"><span style="background-color: #fff; color: #000080; padding: 4px 3px; font-weight: 600; border-radius: 3px;"> PROJECTS NOT AVAILABLE:</span> The projects are currently unavailable. To reserve your project, kindly complete the form.</p></marquee></div>
+
+
+
     </div>
 
     <main class="rb-overview">
@@ -304,7 +310,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <div style="height: 590px;" class="col-12 col-lg-4 rb-overview-form">
 
-            <h2>Start Your Work</h2>
+            <h2><!--Start Your Work--> PRE-BOOK Your Project</h2>
     
     <form method="post" name="google-sheet">
 
@@ -419,22 +425,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               
 
-              <div style="outline: none; display: flex; justify-content: center; align-items: center;" class="col-12 align-self-center rb-form-field"><input id="apply-form" style="padding: 10px 12px 10px 12px; background-color: #FF9933; color: #ffffff; border: 1px solid #138808; border-radius: 4px; font-weight: 600; text-decoration: none; outline: none;" value="Register Now" class="contact-submit" name="submit" type="submit"></div>
+              <div style="outline: none; display: flex; justify-content: center; align-items: center;" class="col-12 align-self-center rb-form-field"><input id="apply-form" style="padding: 10px 12px 10px 12px; background-color: #FF9933; color: #ffffff; border: 1px solid #138808; border-radius: 4px; font-weight: 600; text-decoration: none; outline: none;" value="Reserve Your Project" class="contact-submit" name="submit" type="submit"></div>
 
             </form>
 
-            <p style="color: #fff; font-size: 14px; font-weight: 600; text-align: center; margin: 0px -8px; padding: 15px 0px; ">After registration, please choose and activate your plan to start working with us.</p>
+            <p style="color: #fff; font-size: 14px; font-weight: 600; text-align: center; margin: 0px -8px; padding: 15px 0px; ">The projects are currently unavailable. To reserve your project, kindly complete the form.</p>
 
-            <!-- https://script.google.com/macros/s/AKfycbxM9RY49ZnPLXUkzFGhEwJduj6StDwqPWhve-pCNbeouYkLqHr6/exec //-->
+            <!--Register Now https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec Registration Successful! Now select a plan you want to work on and pay the activation charges to start working with us.//After registration, please choose and activate your plan to start working with us.-->
 
             <script>
-            const scriptURL =  'https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec'
+            const scriptURL =  'https://script.google.com/macros/s/AKfycbw3FKhovZ1cBi5PPthxHFKccGxe2HQdGItHe0U7Q3tqfWK8sxFW79viZeJWSH8a6AIS/exec'
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Registration Successful! Now select a plan you want to work on and pay the activation charges to start working with us."))
+                .then(response => alert("We have secured a pre-booking for your project and will notify you via email as soon as it becomes available."))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>
@@ -495,7 +501,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container">
 
         <h2>Our Plans</h2>
-        <div style="margin-bottom: 30px; margin-top: -20px;"><center><div style="align-items: center; justify-content: center; display: inline-flex; background-color: #138808; padding-left: 5px; font-size: 15px; color: #fff; font-weight: 600; border-radius: 3px;">Offer ENDS On: <p style="margin: 0px; padding: 3px 5px;" id="demotimer"></p></div></center></div>
+        <div style="margin-bottom: 30px; margin-top: -20px;"><center><div style="align-items: center; justify-content: center; display: inline-flex; background-color: #138808; padding-left: 5px; font-size: 15px; color: #fff; font-weight: 600; border-radius: 3px;"><!--Offer ENDS On--> Project Arrival On: <p style="margin: 0px; padding: 3px 5px;" id="demotimer"></p></div></center></div>
 
 
         <section class="pricing py-1">
@@ -559,8 +565,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; color: #b80f0a; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-close"></i></span> <span style="background-color: #b80f0a; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Not Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a style="background-color: red; color: #fff; display: none; border-radius: 0px; font-weight: 900;" class="btn text-uppercase">Not Available</a>
-              <a href="basic-typing-project.html" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="basic-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -623,7 +629,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span class="flash-effect" style="background-color: #138808; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a href="basic-plus-typing-project.html" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="basic-plus-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -688,7 +695,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span class="flash-effect" style="background-color: #138808; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a href="standard-typing-project.html" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="standard-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -755,7 +763,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span class="flash-effect" style="background-color: #138808; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a href="special-typing-project.html" style="outline: none;" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="special-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -818,7 +827,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span style="background-color: #fff; color: #138808; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a href="premium-typing-project.html" style="outline: none;" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="premium-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -1293,7 +1303,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("July 31, 2023 15:37:25").getTime();
+var countDownDate = new Date("July 19, 2023 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
