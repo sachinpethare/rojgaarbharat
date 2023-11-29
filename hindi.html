@@ -421,20 +421,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
               <div style="outline: none; display: flex; justify-content: center; align-items: center;" class="col-12 align-self-center rb-form-field"><input id="apply-form" style="padding: 10px 12px 10px 12px; background-color: #FF9933; color: #ffffff; border: 1px solid #138808; border-radius: 4px; font-weight: 600; text-decoration: none; outline: none;" value="अभी पंजीकरण करें" class="contact-submit" name="submit" type="submit"></div>
 
-              <p style="color: #fff; font-size: 13px; font-weight: 600; text-align: center; margin: 0px -10px; padding: 15px 0px; ">रजिस्ट्रेशन के बाद, कृपया हमारे साथ काम करना शुरू करने के लिए अपने प्लान को चुनें और एक्टिवटे करें।</p>
+              <p style="color: #fff; font-size: 13px; font-weight: 600; text-align: center; margin: 0px -10px; padding: 15px 0px; ">The projects are currently unavailable. To reserve your project, kindly complete the form.</p>
 
             </form>
 
-            <!-- |  https://script.google.com/macros/s/AKfycbw3FKhovZ1cBi5PPthxHFKccGxe2HQdGItHe0U7Q3tqfWK8sxFW79viZeJWSH8a6AIS/exec | // -->
+            <!--रजिस्ट्रेशन के बाद, कृपया हमारे साथ काम करना शुरू करने के लिए अपने प्लान को चुनें और एक्टिवटे करें। |  https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec | पंजीकरण सफल! अब उस योजना का चयन करें जिस पर आप काम करना चाहते हैं और सक्रियण शुल्क का भुगतान करें, काम शुरू करने के लिए।// -->
 
             <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec'
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw3FKhovZ1cBi5PPthxHFKccGxe2HQdGItHe0U7Q3tqfWK8sxFW79viZeJWSH8a6AIS/exec'
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("पंजीकरण सफल! अब उस योजना का चयन करें जिस पर आप काम करना चाहते हैं और सक्रियण शुल्क का भुगतान करें, काम शुरू करने के लिए।"))
+                .then(response => alert("We have secured a pre-booking for your project and will notify you via email as soon as it becomes available."))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>
@@ -500,7 +500,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 30, 2023 15:37:25").getTime();
+var countDownDate = new Date("Dec 6, 2023 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -590,8 +590,8 @@ var x = setInterval(function() {
               <li><span style="font-size: 22px; color: #b80f0a; margin: -5px 0px 0px 5px;" class="fa-li"> <i class="fa fa-close"></i></span> <span style="background-color: #b80f0a; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">वापसी योग्य नहीं</span></li>
             </ul>
             <div class="d-grid">
-              <a style="background-color: red; color: #fff; display: none; border-radius: 0px; font-weight: 900;" class="btn text-uppercase">उपलब्ध नहीं है</a>
-              <a href="hindi-basic-typing-project.html" class="btn text-uppercase">विवरण देखें</a>
+              <a href="hindi-apply-for-job.html" style="background-color: red; color: #fff; border-radius: 0px; font-weight: 900;" class="btn text-uppercase">उपलब्ध नहीं है</a>
+              <a style="display: none;" href="hindi-basic-typing-project.html" class="btn text-uppercase">विवरण देखें</a>
             </div>
           </div>
         </div>
@@ -654,7 +654,8 @@ var x = setInterval(function() {
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span class="flash-effect" style="background-color: #138808; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">वापसी योग्य</span></li>
             </ul>
             <div class="d-grid">
-              <a href="hindi-basic-plus-typing-project.html" class="btn text-uppercase">विवरण देखें</a>
+              <a href="hindi-apply-for-job.html" style="background-color: red; color: #fff; border-radius: 0px; font-weight: 900;" class="btn text-uppercase">उपलब्ध नहीं है</a>
+              <a style="display: none; " href="hindi-basic-plus-typing-project.html" class="btn text-uppercase">विवरण देखें</a>
             </div>
           </div>
         </div>
@@ -717,7 +718,8 @@ var x = setInterval(function() {
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span class="flash-effect" style="background-color: #138808; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">वापसी योग्य</span></li>
             </ul>
             <div class="d-grid">
-              <a href="hindi-standard-typing-project.html" class="btn text-uppercase">विवरण देखें</a>
+              <a href="hindi-apply-for-job.html" style="background-color: red; color: #fff; border-radius: 0px; font-weight: 900;" class="btn text-uppercase">उपलब्ध नहीं है</a>
+              <a style="display: none; " href="hindi-standard-typing-project.html" class="btn text-uppercase">विवरण देखें</a>
             </div>
           </div>
         </div>
@@ -781,7 +783,8 @@ var x = setInterval(function() {
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span class="flash-effect" style="background-color: #138808; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">वापसी योग्य</span></li>
             </ul>
             <div class="d-grid">
-              <a href="hindi-special-typing-project.html" style="outline: none;" class="btn text-uppercase">विवरण देखें</a>
+              <a href="hindi-apply-for-job.html" style="background-color: red; color: #fff; border-radius: 0px; font-weight: 900;" class="btn text-uppercase">उपलब्ध नहीं है</a>
+              <a style="display: none;" href="hindi-special-typing-project.html" style="outline: none;" class="btn text-uppercase">विवरण देखें</a>
             </div>
           </div>
         </div>
@@ -844,7 +847,8 @@ var x = setInterval(function() {
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span style="background-color: #fff; color: #138808; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">वापसी योग्य</span></li>
             </ul>
             <div class="d-grid">
-              <a href="hindi-premium-typing-project.html" style="outline: none;" class="btn text-uppercase">विवरण देखें</a>
+              <a href="hindi-apply-for-job.html" style="background-color: red; color: #fff; border-radius: 0px; font-weight: 900;" class="btn text-uppercase">उपलब्ध नहीं है</a>
+              <a style="display: none; " href="hindi-premium-typing-project.html" style="outline: none;" class="btn text-uppercase">विवरण देखें</a>
             </div>
           </div>
         </div>

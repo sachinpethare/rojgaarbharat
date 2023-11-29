@@ -387,18 +387,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             </form>
 
-            <p style="color: #b80f0a; display: none; font-size: 14px; font-weight: 600; text-align: center; margin: 0px -8px; padding: 15px 0px; ">The projects are currently unavailable. To reserve your project, kindly complete the form.</p>
+            <p style="color: #b80f0a; font-size: 14px; font-weight: 600; text-align: center; margin: 0px -8px; padding: 15px 0px; ">The projects are currently unavailable. To reserve your project, kindly complete the form.</p>
 
-            <!-- https://script.google.com/macros/s/AKfycbw3FKhovZ1cBi5PPthxHFKccGxe2HQdGItHe0U7Q3tqfWK8sxFW79viZeJWSH8a6AIS/exec //-->
+            <!-- पंजीकरण सफल! अब उस योजना का चयन करें जिस पर आप काम करना चाहते हैं और सक्रियण शुल्क का भुगतान करें, काम शुरू करने के लिए। | https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec -->
 
             <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec'
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw3FKhovZ1cBi5PPthxHFKccGxe2HQdGItHe0U7Q3tqfWK8sxFW79viZeJWSH8a6AIS/exec'
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("पंजीकरण सफल! अब उस योजना का चयन करें जिस पर आप काम करना चाहते हैं और सक्रियण शुल्क का भुगतान करें, काम शुरू करने के लिए।"))
+                .then(response => alert("We have secured a pre-booking for your project and will notify you via email as soon as it becomes available."))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>

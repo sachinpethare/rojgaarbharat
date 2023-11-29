@@ -429,18 +429,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             </form>
 
-            <p style="color: #fff; font-size: 14px; font-weight: 600; text-align: center; margin: 0px -8px; padding: 15px 0px; ">After registration, please choose and activate your plan to start working with us.</p>
+            <p style="color: #fff; font-size: 14px; font-weight: 600; text-align: center; margin: 0px -8px; padding: 15px 0px; ">The projects are currently unavailable. To reserve your project, kindly complete the form.</p>
 
-            <!--The projects are currently unavailable. To reserve your project, kindly complete the form. | https://script.google.com/macros/s/AKfycbw3FKhovZ1cBi5PPthxHFKccGxe2HQdGItHe0U7Q3tqfWK8sxFW79viZeJWSH8a6AIS/exec | //We have secured a pre-booking for your project and will notify you via email as soon as it becomes available.-->
+            <!--After registration, please choose and activate your plan to start working with us. | https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec | Registration Successful! Now select a plan you want to work on and pay the activation charges to start working with us. -->
 
             <script>
-            const scriptURL =  'https://script.google.com/macros/s/AKfycbygqFsHzfxdlncccFECwuUKSX8aouZvo2Y6IVPJu0HmTq6EocU6/exec'
+            const scriptURL =  'https://script.google.com/macros/s/AKfycbw3FKhovZ1cBi5PPthxHFKccGxe2HQdGItHe0U7Q3tqfWK8sxFW79viZeJWSH8a6AIS/exec'
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Registration Successful! Now select a plan you want to work on and pay the activation charges to start working with us."))
+                .then(response => alert("We have secured a pre-booking for your project and will notify you via email as soon as it becomes available."))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>
@@ -501,7 +501,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container">
 
         <h2>Our Plans</h2>
-        <div style="margin-bottom: 30px; margin-top: -20px;"><center><div style="align-items: center; justify-content: center; display: inline-flex; background-color: #138808; padding-left: 5px; font-size: 15px; color: #fff; font-weight: 600; border-radius: 3px;"><!-- Project Arrival On -->Offer ENDS On: <p style="margin: 0px; padding: 3px 5px;" id="demotimer"></p></div></center></div>
+        <div style="margin-bottom: 30px; margin-top: -20px;"><center><div style="align-items: center; justify-content: center; display: inline-flex; background-color: #138808; padding-left: 5px; font-size: 15px; color: #fff; font-weight: 600; border-radius: 3px;"><!-- Offer ENDS On -->Project Arrival On: <p style="margin: 0px; padding: 3px 5px;" id="demotimer"></p></div></center></div>
 
 
         <section class="pricing py-1">
@@ -565,8 +565,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; color: #b80f0a; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-close"></i></span> <span style="background-color: #b80f0a; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Not Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a href="apply-for-job.html" style="border-radius: 3px; display: none; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
-              <a href="basic-typing-project.html" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="basic-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -629,8 +629,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span class="flash-effect" style="background-color: #138808; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a href="apply-for-job.html" style="border-radius: 3px; display: none; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
-              <a href="basic-plus-typing-project.html" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="basic-plus-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -695,8 +695,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span class="flash-effect" style="background-color: #138808; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a href="apply-for-job.html" style="border-radius: 3px; display: none; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
-              <a href="standard-typing-project.html" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="standard-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -763,8 +763,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span class="flash-effect" style="background-color: #138808; color: #fff; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a href="apply-for-job.html" style="border-radius: 3px; display: none; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
-              <a href="special-typing-project.html" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="special-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -827,8 +827,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><span style="font-size: 22px; margin: -5px 0px 0px 5px;" class="fa-li"><i class="fas fa-check"></i></span> <span style="background-color: #fff; color: #138808; border-radius: 5px; padding: 4px 5px; font-weight: 600; font-size: 13px; ">Refundable</span></li>
             </ul>
             <div class="d-grid">
-              <a href="apply-for-job.html" style="border-radius: 3px; display: none; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
-              <a href="premium-typing-project.html" class="btn text-uppercase">View Details</a>
+              <a href="apply-for-job.html" style="border-radius: 3px; padding: 10px 10px; font-weight: 900;" class="btn text-uppercase">Not Available - Book Now!</a>
+              <a style="display: none;" href="premium-typing-project.html" class="btn text-uppercase">View Details</a>
             </div>
           </div>
         </div>
@@ -1303,7 +1303,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 30, 2023 15:37:25").getTime();
+var countDownDate = new Date("Dec 6, 2023 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
