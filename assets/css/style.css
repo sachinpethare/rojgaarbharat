@@ -1569,17 +1569,18 @@ section.pricing {
 }
 
 
-.float{
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:90px;
-  right:25px;
-  background-color:#138808;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 90px;
+  right: 25px;
+  background-color: #138808;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
   box-shadow: 2px 2px 3px #999;
+  z-index: 999;
 }
 
 .my-float{
